@@ -67,7 +67,34 @@ async function mainFunction() {
     }
 
     default:
-      console.log('Command not found. Type "Help" for options');
+      console.log(`
+                Command Not Found!
+                Task Tracker CLI - Available Commands:
+
+                # Add a new task
+                node app.js add "Task Title"
+
+                # Update a task by ID
+                node app.js update <id> "New Task Title"
+
+                # Delete a task by ID
+                node app.js delete <id>
+
+                # Mark a task as in progress
+                node app.js mark-in-progress <id>
+
+                # Mark a task as done
+                node app.js mark-done <id>
+
+                # List all tasks
+                node app.js list
+
+                # List tasks by status
+                node app.js list todo
+                node app.js list in-progress
+                node app.js list done
+                `);
+
   }
 }
 
