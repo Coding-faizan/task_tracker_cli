@@ -1,5 +1,5 @@
-# Source code URL
-https://github.com/Coding-faizan/task_tracker_cli
+# Project URl
+https://roadmap.sh/projects/task-tracker
 
 # Adding a new task
 node app.js add "Buy groceries"
